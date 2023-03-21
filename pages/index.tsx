@@ -253,9 +253,7 @@ const Home: NextPage = () => {
               height={48}
               alt='opensea' />
         </div>
-      </div>  
-    );
-  }
+      </div>
 
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
