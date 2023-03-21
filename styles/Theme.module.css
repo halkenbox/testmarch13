@@ -16,10 +16,11 @@
 }
 
 .previewImage {
-  height: 50px;
-  width: 50px;
-  border-radius: 16px;
-  border: 1px solid var(--border-color);
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  margin-center: 50%;
   padding: 8px;
 }
 
