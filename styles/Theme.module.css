@@ -15,14 +15,6 @@
   margin-right: 10%;
 }
 
-.previewImage {
-  height: 50px;
-  width: 50px;
-  border-radius: 16px;
-  border: 1px solid var(--border-color);
-  padding: 8px;
-}
-
 .mintInfoContainer {
   display: flex;
   flex-direction: row;
