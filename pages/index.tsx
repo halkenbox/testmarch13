@@ -211,7 +211,6 @@ const Home: NextPage = () => {
   ]);
 
   return (
-    <div className={styles.container}>
       <div className={styles.socialIcons}>
         <div style={{ paddingRight: 10 }}>
           <a href="https://opensea.io">
@@ -223,7 +222,6 @@ const Home: NextPage = () => {
           </a>
         </div>
       </div>
-    </div>
         <div style={{ paddingRight: 10 }}>
           <a href="https://twitter.com">
             <Image
