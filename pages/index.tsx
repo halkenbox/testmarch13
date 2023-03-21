@@ -249,6 +249,7 @@ const Home: NextPage = () => {
           <p>Loading...</p>
         ) : (
           <>
+        )}
       </div>
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
