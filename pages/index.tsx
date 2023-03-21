@@ -242,11 +242,18 @@ const Home: NextPage = () => {
           </a>
         </div>
       </div>
-      <div className={styles.mintInfoContainer}/>
-          <p>Loading...</p>
-        ) : (
-          <>
-      </div>
+    );
+  }
+
+      <div className={styles.mintInfoContainer}>
+        <div className={styles.socialIcons}>
+            <Image
+              src={'/Opensea.png'}
+              width={48}
+              height={48}
+              alt='opensea' />
+        </div>
+      </div>  
     );
   }
 
@@ -292,7 +299,7 @@ const Home: NextPage = () => {
                 </div>
               ) : (
                 <>
-                  <p>Quantity</p>
+
                   <div className={styles.quantityContainer}>
                     <button
                       className={`${styles.quantityControlButton}`}
