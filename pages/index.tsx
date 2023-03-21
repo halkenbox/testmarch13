@@ -222,6 +222,8 @@ const Home: NextPage = () => {
               alt='opensea' />
           </a>
         </div>
+      </div>
+    </div>
         <div style={{ paddingRight: 10 }}>
           <a href="https://twitter.com">
             <Image
@@ -239,9 +241,6 @@ const Home: NextPage = () => {
               height={48}
               alt='Website' />
           </a>
-          )}
-        </div>
-      </div>
       <div className={styles.mintInfoContainer}>
         {isLoading ? (
           <p>Loading...</p>
