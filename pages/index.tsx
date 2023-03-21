@@ -242,6 +242,9 @@ const Home: NextPage = () => {
           </a>
         </div>
       </div>
+    );
+  );
+}
       <div className={styles.mintInfoContainer}>
         {isLoading ? (
           <p>Loading...</p>
