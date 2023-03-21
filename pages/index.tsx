@@ -222,6 +222,8 @@ const Home: NextPage = () => {
               alt='https://opensea.io' />
           </a>
         </div>
+      </div>
+    </div>
         <div style={{ paddingRight: 10 }}>
           <a href="">
             <Image
@@ -251,8 +253,7 @@ const Home: NextPage = () => {
               <h1>Boys Adventure</h1>
             </div>
 
-              <MediaRenderer
-              />
+              <MediaRenderer />
 
               {/* Amount claimed so far */}
               <div className={styles.mintCompletionArea}>
