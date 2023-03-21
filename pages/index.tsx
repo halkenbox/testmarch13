@@ -334,23 +334,12 @@ const Home: NextPage = () => {
                     )}
                   </div>
                 </>
-              )}
-            </div>
-          </>
-        )}
-      </div>
-      {/* Powered by thirdweb */}{" "}
-      <Image
-        src="/logo.png"
-        alt="thirdweb Logo"
-        width={135}
-        height={22}
-        className={styles.buttonGapTop}
-        style={{
-          objectFit: "contain",
-        }}
-      />
-    </div>
+              );
+            );
+          );
+        );
+      );
+    );
   );
 };
 
