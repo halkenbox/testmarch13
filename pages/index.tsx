@@ -223,7 +223,6 @@ const Home: NextPage = () => {
           </a>
         </div>
       </div>
-    </div>
         <div style={{ paddingRight: 10 }}>
           <a href="">
             <Image
