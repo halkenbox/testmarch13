@@ -247,8 +247,6 @@ const Home: NextPage = () => {
         ) : (
           <>
 
-            <div className={styles.imageSide}>
-              {/* Image Preview of NFTs */}
               <MediaRenderer />
 
               {/* Amount claimed so far */}
