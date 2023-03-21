@@ -249,18 +249,9 @@ const Home: NextPage = () => {
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
               <h1>Boys Adventure</h1>
-              {/* Description of your NFT Collection */}
-              <p className={styles.description}>
-              This is Just Test Minting Dapp
-              </p>
             </div>
 
-            <div className={styles.imageSide}>
-              {/* Image Preview of NFTs */}
               <MediaRenderer
-                className={styles.image}
-                src="/preview.gif"
-                alt={`<Boys> preview image`}
               />
 
               {/* Amount claimed so far */}
