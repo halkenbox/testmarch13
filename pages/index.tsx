@@ -242,8 +242,6 @@ const Home: NextPage = () => {
           </a>
         </div>
       </div>
-    );
-  }
       <div className={styles.mintInfoContainer}/>
           <p>Loading...</p>
         ) : (
@@ -251,6 +249,7 @@ const Home: NextPage = () => {
       </div>
     );
   }
+
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
               <h1>Boys Adventure</h1>
