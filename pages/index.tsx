@@ -211,41 +211,57 @@ const Home: NextPage = () => {
   ]);
 
   return (
+    <div className={styles.container}>
       <div className={styles.socialIcons}>
         <div style={{ paddingRight: 10 }}>
-          <a href="https://opensea.io">
+          <a href="">
             <Image
               src={'/Opensea.png'}
               width={48}
               height={48}
-              alt='opensea' />
+              alt='https://opensea.io' />
           </a>
         </div>
-      </div>
         <div style={{ paddingRight: 10 }}>
-          <a href="https://twitter.com">
+          <a href="">
             <Image
               src={'/Twitter.png'}
               width={48}
               height={48}
-              alt='twitter' />
+              alt='https://twitter.com' />
           </a>
         </div>
         <div>
-          <a href="https://testmarch12.vercel.app">
+          <a href="">
             <Image
               src={'/Website.png'}
               width={48}
               height={48}
               alt='Website' />
           </a>
+        </div>
+      </div>
       <div className={styles.mintInfoContainer}>
         {isLoading ? (
           <p>Loading...</p>
         ) : (
           <>
+            <div className={styles.infoSide}>
+              {/* Title of your NFT Collection */}
+              <h1>Boys Adventure</h1>
+              {/* Description of your NFT Collection */}
+              <p className={styles.description}>
+              This is Just Test Minting Dapp
+              </p>
+            </div>
 
-              <MediaRenderer />
+            <div className={styles.imageSide}>
+              {/* Image Preview of NFTs */}
+              <MediaRenderer
+                className={styles.image}
+                src="/preview.gif"
+                alt={`<Boys> preview image`}
+              />
 
               {/* Amount claimed so far */}
               <div className={styles.mintCompletionArea}>
@@ -323,7 +339,7 @@ const Home: NextPage = () => {
                         }}
                       >
                         {buttonLoading ? "Loading..." : buttonText}
-                      <Web3Button />
+                      </Web3Button>
                     )}
                   </div>
                 </>
@@ -331,7 +347,19 @@ const Home: NextPage = () => {
             </div>
           </>
         )}
-    <div>
+      </div>
+      {/* Powered by thirdweb */}{" "}
+      <Image
+        src="/logo.png"
+        alt="thirdweb Logo"
+        width={135}
+        height={22}
+        className={styles.buttonGapTop}
+        style={{
+          objectFit: "contain",
+        }}
+      />
+    </div>
   );
 };
 
