@@ -214,26 +214,26 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <div className={styles.socialIcons}>
         <div style={{ paddingRight: 10 }}>
-          <a href="">
+          <a href="https://opensea.io">
             <Image
               src={'/Opensea.png'}
               width={48}
               height={48}
-              alt='https://opensea.io' />
+              alt='opensea' />
           </a>
         </div>
       </div>
         <div style={{ paddingRight: 10 }}>
-          <a href="">
+          <a href="https://qx.app">
             <Image
               src={'/Twitter.png'}
               width={48}
               height={48}
-              alt='https://twitter.com' />
+              alt='twitter' />
           </a>
         </div>
         <div>
-          <a href="">
+          <a href="https://zonic.app">
             <Image
               src={'/Website.png'}
               width={48}
@@ -245,12 +245,13 @@ const Home: NextPage = () => {
     );
   }
       <div className={styles.mintInfoContainer}>
-        {isLoading ? (
           <p>Loading...</p>
         ) : (
           <>
-        )}
+          />
       </div>
+    );
+  }
             <div className={styles.infoSide}>
               {/* Title of your NFT Collection */}
               <h1>Boys Adventure</h1>
