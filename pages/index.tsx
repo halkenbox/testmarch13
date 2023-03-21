@@ -245,23 +245,6 @@ const Home: NextPage = () => {
     );
   }
 
-      <div className={styles.mintInfoContainer}>
-        <div className={styles.socialIcons}>
-            <Image
-              src={'/Opensea.png'}
-              width={48}
-              height={48}
-              alt='opensea' />
-        </div>
-      </div>  
-    );
-  }
-
-            <div className={styles.infoSide}>
-              {/* Title of your NFT Collection */}
-              <h1>Boys Adventure</h1>
-            </div>
-
               <MediaRenderer />
 
               {/* Amount claimed so far */}
