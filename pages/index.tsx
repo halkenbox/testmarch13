@@ -249,7 +249,7 @@ const Home: NextPage = () => {
 
             <div className={styles.imageSide}>
               {/* Image Preview of NFTs */}
-              <MediaRenderer
+              <MediaRenderer />
 
               {/* Amount claimed so far */}
               <div className={styles.mintCompletionArea}>
