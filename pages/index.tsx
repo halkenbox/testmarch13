@@ -239,7 +239,7 @@ const Home: NextPage = () => {
               height={48}
               alt='Website' />
           </a>
-        </div>
+        <div />
       </div>
       <div className={styles.mintInfoContainer}>
         {isLoading ? (
@@ -333,7 +333,7 @@ const Home: NextPage = () => {
             </div>
           </>
         )}
-    <div />
+    <div>
   );
 };
 
