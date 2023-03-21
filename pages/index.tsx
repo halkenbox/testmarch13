@@ -325,7 +325,7 @@ const Home: NextPage = () => {
                         }}
                       >
                         {buttonLoading ? "Loading..." : buttonText}
-                      </Web3Button>
+                      <Web3Button />
                     )}
                   </div>
                 </>
